@@ -1,0 +1,16 @@
+{
+	"/": [],
+	"/attendance": [],
+	"/event-list": [],
+	"/event-list/[id]": [],
+	"/event": [],
+	"/event/[id]": [],
+	"/home": [],
+	"/home/profile-edit": [],
+	"/login": [],
+	"/messages": [],
+	"/register": [],
+	"/report": [],
+	"/settings": [],
+	"/user/[userId]/history": []
+}

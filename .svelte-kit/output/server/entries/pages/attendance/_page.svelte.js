@@ -1,0 +1,15 @@
+import { c as create_ssr_component, v as validate_component } from "../../../chunks/ssr.js";
+import { N as Navbar } from "../../../chunks/navbar.js";
+import { B as Background } from "../../../chunks/background.js";
+import "../../../chunks/client.js";
+const css = {
+  code: "button.svelte-1qncvgf{transition:background-color 0.2s ease-in-out}",
+  map: `{"version":3,"file":"+page.svelte","sources":["+page.svelte"],"sourcesContent":["<script>\\n    import Navbar from '$lib/components/common/navbar.svelte';\\n    import Background from '$lib/components/common/background.svelte';\\n    import { Bell, UserCircle } from 'lucide-svelte';\\n    import { goto } from '$app/navigation';\\n  \\n    const handleParticipate = () => {\\n      // 参加処理の実装\\n      console.log('参加記録');\\n    };\\n  \\n    const handleComplete = () => {\\n      // 終了処理の実装\\n      console.log('終了記録');\\n    };\\n  <\/script>\\n  \\n  <Navbar />\\n  <div class=\\"relative min-h-screen overflow-hidden bg-[#F5F5F5]\\">\\n    <Background />\\n    <!-- メインコンテンツ -->\\n    <main class=\\"relative container mx-auto mt-8 px-4\\">\\n      <div class=\\"max-w-md mx-auto bg-white rounded-lg shadow-md p-6\\">\\n        <h1 class=\\"text-2xl font-bold text-center mb-6\\">イベント参加・終了 記録</h1>\\n        <div class=\\"space-y-4\\">\\n          <button\\n            class=\\"w-full bg-[#3AAFA9] hover:bg-[#2B7A78] text-white font-bold py-2 px-4 rounded transition-colors\\"\\n            on:click={handleParticipate}\\n          >\\n            参加する\\n          </button>\\n          <button\\n            class=\\"w-full bg-[#FF6B6B] hover:bg-[#FF8080] text-white font-bold py-2 px-4 rounded transition-colors\\"\\n            on:click={handleComplete}\\n          >\\n            終了する\\n          </button>\\n        </div>\\n      </div>\\n    </main>\\n  </div>\\n  \\n  <style>\\n    /* トランジションのスタイル */\\n    button {\\n      transition: background-color 0.2s ease-in-out;\\n    }\\n  </style>"],"names":[],"mappings":"AA4CI,qBAAO,CACL,UAAU,CAAE,gBAAgB,CAAC,IAAI,CAAC,WACpC"}`
+};
+const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  $$result.css.add(css);
+  return `${validate_component(Navbar, "Navbar").$$render($$result, {}, {}, {})} <div class="relative min-h-screen overflow-hidden bg-[#F5F5F5]">${validate_component(Background, "Background").$$render($$result, {}, {}, {})}  <main class="relative container mx-auto mt-8 px-4"><div class="max-w-md mx-auto bg-white rounded-lg shadow-md p-6"><h1 class="text-2xl font-bold text-center mb-6" data-svelte-h="svelte-gznj1g">イベント参加・終了 記録</h1> <div class="space-y-4"><button class="w-full bg-[#3AAFA9] hover:bg-[#2B7A78] text-white font-bold py-2 px-4 rounded transition-colors svelte-1qncvgf" data-svelte-h="svelte-skwhl0">参加する</button> <button class="w-full bg-[#FF6B6B] hover:bg-[#FF8080] text-white font-bold py-2 px-4 rounded transition-colors svelte-1qncvgf" data-svelte-h="svelte-1dkcdvv">終了する</button></div></div></main> </div>`;
+});
+export {
+  Page as default
+};

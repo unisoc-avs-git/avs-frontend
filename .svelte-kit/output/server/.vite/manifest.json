@@ -1,0 +1,342 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_background.js": {
+    "file": "chunks/background.js",
+    "name": "background",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_client.js": {
+    "file": "chunks/client.js",
+    "name": "client",
+    "imports": [
+      "_exports.js"
+    ]
+  },
+  "_event_form.js": {
+    "file": "chunks/event_form.js",
+    "name": "event_form",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_events.js": {
+    "file": "chunks/events.js",
+    "name": "events",
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports"
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_navbar.js": {
+    "file": "chunks/navbar.js",
+    "name": "navbar",
+    "imports": [
+      "_ssr.js"
+    ],
+    "css": [
+      "_app/immutable/assets/navbar.85YXm_TJ.css"
+    ]
+  },
+  "_sdgsIcon.js": {
+    "file": "chunks/sdgsIcon.js",
+    "name": "sdgsIcon",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js",
+    "name": "ssr"
+  },
+  "_star.js": {
+    "file": "chunks/star.js",
+    "name": "star",
+    "imports": [
+      "_ssr.js",
+      "_navbar.js"
+    ]
+  },
+  "_stores.js": {
+    "file": "chunks/stores.js",
+    "name": "stores",
+    "imports": [
+      "_ssr.js",
+      "_client.js"
+    ]
+  },
+  "_user.js": {
+    "file": "chunks/user.js",
+    "name": "user",
+    "imports": [
+      "_ssr.js",
+      "_navbar.js"
+    ]
+  },
+  "_user2.js": {
+    "file": "chunks/user2.js",
+    "name": "user",
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/svelte-4/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-4/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_stores.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_exports.js",
+      "_index.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.C7exSkl_.css"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.BvVLsAdr.css"
+    ]
+  },
+  "src/routes/attendance/+page.svelte": {
+    "file": "entries/pages/attendance/_page.svelte.js",
+    "name": "entries/pages/attendance/_page.svelte",
+    "src": "src/routes/attendance/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_navbar.js",
+      "_background.js",
+      "_client.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.Bh0b964G.css"
+    ]
+  },
+  "src/routes/event-list/+page.svelte": {
+    "file": "entries/pages/event-list/_page.svelte.js",
+    "name": "entries/pages/event-list/_page.svelte",
+    "src": "src/routes/event-list/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_client.js",
+      "_background.js",
+      "_star.js",
+      "_navbar.js",
+      "_sdgsIcon.js",
+      "_events.js"
+    ]
+  },
+  "src/routes/event-list/[id]/+page.svelte": {
+    "file": "entries/pages/event-list/_id_/_page.svelte.js",
+    "name": "entries/pages/event-list/_id_/_page.svelte",
+    "src": "src/routes/event-list/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_client.js",
+      "_stores.js",
+      "_background.js",
+      "_navbar.js",
+      "_sdgsIcon.js",
+      "_events.js",
+      "_star.js",
+      "_user.js"
+    ]
+  },
+  "src/routes/event/+page.svelte": {
+    "file": "entries/pages/event/_page.svelte.js",
+    "name": "entries/pages/event/_page.svelte",
+    "src": "src/routes/event/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_client.js",
+      "_events.js",
+      "_background.js",
+      "_navbar.js",
+      "_event_form.js"
+    ]
+  },
+  "src/routes/event/[id]/+page.svelte": {
+    "file": "entries/pages/event/_id_/_page.svelte.js",
+    "name": "entries/pages/event/_id_/_page.svelte",
+    "src": "src/routes/event/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_client.js",
+      "_stores.js",
+      "_events.js",
+      "_background.js",
+      "_navbar.js",
+      "_event_form.js"
+    ]
+  },
+  "src/routes/home/+page.svelte": {
+    "file": "entries/pages/home/_page.svelte.js",
+    "name": "entries/pages/home/_page.svelte",
+    "src": "src/routes/home/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_client.js",
+      "_background.js",
+      "_navbar.js",
+      "_events.js",
+      "_user2.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CPkRRTKw.css"
+    ]
+  },
+  "src/routes/home/profile-edit/+page.svelte": {
+    "file": "entries/pages/home/profile-edit/_page.svelte.js",
+    "name": "entries/pages/home/profile-edit/_page.svelte",
+    "src": "src/routes/home/profile-edit/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_background.js",
+      "_navbar.js",
+      "_sdgsIcon.js",
+      "_client.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CbQlXKsL.css"
+    ]
+  },
+  "src/routes/login/+page.svelte": {
+    "file": "entries/pages/login/_page.svelte.js",
+    "name": "entries/pages/login/_page.svelte",
+    "src": "src/routes/login/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_background.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.GoKKQokH.css"
+    ]
+  },
+  "src/routes/messages/+page.svelte": {
+    "file": "entries/pages/messages/_page.svelte.js",
+    "name": "entries/pages/messages/_page.svelte",
+    "src": "src/routes/messages/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_background.js",
+      "_navbar.js"
+    ]
+  },
+  "src/routes/register/+page.svelte": {
+    "file": "entries/pages/register/_page.svelte.js",
+    "name": "entries/pages/register/_page.svelte",
+    "src": "src/routes/register/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_client.js",
+      "_navbar.js",
+      "_background.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CvmeNfcb.css"
+    ]
+  },
+  "src/routes/report/+page.svelte": {
+    "file": "entries/pages/report/_page.svelte.js",
+    "name": "entries/pages/report/_page.svelte",
+    "src": "src/routes/report/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_navbar.js",
+      "_background.js",
+      "_client.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.B8LmmCK5.css"
+    ]
+  },
+  "src/routes/settings/+page.svelte": {
+    "file": "entries/pages/settings/_page.svelte.js",
+    "name": "entries/pages/settings/_page.svelte",
+    "src": "src/routes/settings/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_background.js",
+      "_navbar.js",
+      "_user2.js"
+    ]
+  },
+  "src/routes/user/[userId]/history/+page.svelte": {
+    "file": "entries/pages/user/_userId_/history/_page.svelte.js",
+    "name": "entries/pages/user/_userId_/history/_page.svelte",
+    "src": "src/routes/user/[userId]/history/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_background.js",
+      "_navbar.js",
+      "_sdgsIcon.js",
+      "_user.js"
+    ]
+  }
+}
