@@ -1,7 +1,7 @@
 <script>
     import Background from '$lib/components/common/background.svelte';
     import Navbar from '$lib/components/common/navbar.svelte';
-    import SDGsIcon from '$lib/components/common/SDGsIcon.svelte';
+    import SDGsIcon from '$lib/components/common/sdgsIcon.svelte';
     import { CalendarIcon } from "lucide-svelte";
     import { format } from "date-fns";
     import { goto } from '$app/navigation';

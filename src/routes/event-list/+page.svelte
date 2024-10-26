@@ -3,7 +3,7 @@
   import Background from '$lib/components/common/background.svelte';
   import Datepicker from '$lib/components/common/datepicker.svelte';
   import Navbar from '$lib/components/common/navbar.svelte';
-  import SDGsIcon from '$lib/components/common/SDGsIcon.svelte';
+  import SDGsIcon from '$lib/components/common/sdgsIcon.svelte';
   import { eventStore } from '$lib/data/events.js';
   import { Building2, Calendar, Clock, LayoutGrid, Map, MapPin, Share2, Star, Users } from 'lucide-svelte';
 
