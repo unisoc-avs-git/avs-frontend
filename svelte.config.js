@@ -7,12 +7,12 @@ const dev = process.argv.includes('dev');
 const config = {
 	kit: {
 		adapter: adapter({
-			path: {
+			paths: {
 				base: dev ? '' : '/{avs-frontend}'
 			},
 			pages: 'build',
 			assets: 'build',
-			fallback: 'index.html'
+			fallback: 'index.html',
 		})
 	},
 	preprocess: vitePreprocess()
