@@ -11,5 +11,6 @@ export default defineConfig({
 		fs: {
 			allow: ['..'] // プロジェクトのルートディレクトリを許可
 		},
-	}
+	},
+	base: '/avs-frontend'
 });
