@@ -8,7 +8,7 @@ const config = {
 	kit: {
 		adapter: adapter({
 			paths: {
-				base: dev ? '' : '/avs-frontend'
+				base: '/avs-frontend'
 			},
 			pages: 'build',
 			assets: 'build',
