@@ -1,1 +1,0 @@
-import{w as o}from"./index.BCtDn-Ji.js";const r=()=>typeof window<"u"&&localStorage.getItem("userRole")||"enduser",t=o(r());t.subscribe(e=>{typeof window<"u"&&localStorage.setItem("userRole",e)});export{t as u};
